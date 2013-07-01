@@ -2,7 +2,7 @@ The directories here are maintained using [git
 annex](http://git-annex.branchable.com/). Feel free to either use the directory
 index powered by [h5ai](http://larsjung.de/h5ai/) or clone it via
 
-    git clone http://downloads.the-huck.com/<top-level-dir>/.git/
+`git clone http://<login>:<password>@downloads.the-huck.com/<top-level-dir>/.git/`
 
 Run `git annex get <filename>` to retrieve a specific file or `git annex get .`
 for all files in the directory.
