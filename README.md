@@ -24,3 +24,11 @@ List of h5ai features
 * text files previewed, too
   - includes syntax highlighting and markdown rendering.
 * QR codes shown for convenience
+
+Setup
+-----
+see NOTES.md
+
+Author
+------
+Patrick Huck, 06-30-2013

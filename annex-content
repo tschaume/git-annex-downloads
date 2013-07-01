@@ -1,0 +1,8 @@
+#!/bin/sh
+# After content is received or dropped from the repository by git-annex-shell,
+# it runs a hook, .git/hooks/annex-content (or hooks/annex-content on a bare
+# repository). The hook is not currently passed any information about what
+# changed.
+# see http://git-annex.branchable.com/git-annex-shell/
+
+exec git annex sync
